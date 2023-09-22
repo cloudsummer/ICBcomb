@@ -8,7 +8,8 @@ We utilized NEXTFLOW for the processing pipeline of bulk RNA-seq raw data of the
 ## 2. Modify the file "bulk_RNAseq_workflow_of_NEXTFLOW".
 
 All software parameters are preconfigured in the "bulk_RNAseq_workflow_of_NEXTFLOW" file. If you need to modify the runtime parameters of the software, you can make changes to this file.
- software detail:
+
+Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
  
  FastQC (version 0.11.9) was used for data quality control (QC).
 
