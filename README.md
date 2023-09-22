@@ -6,6 +6,7 @@ We utilized NEXTFLOW for the processing pipeline of bulk RNA-seq raw data of the
 ```docker pull xynicoo/rnaseq:n3-fastpMqc```
 
 ## 2. Modify the file "bulk_RNAseq_workflow_of_NEXTFLOW".
+
 All software parameters are preconfigured in the "bulk_RNAseq_workflow_of_NEXTFLOW" file. If you need to modify the runtime parameters of the software, you can make changes to this file.
  software detail:
  
@@ -21,6 +22,7 @@ All software parameters are preconfigured in the "bulk_RNAseq_workflow_of_NEXTFL
  FeatureCounts (version 2.0.3) was used to calculate gene expression and get the raw counts (reads matrix).
 
 ## 3. Modify the file "nextflow.config".
+
 To run a Nextflow configuration file and specify parameters such as the path to the fastq files, reference genome path, user UID, and other relevant settings.
 
 ## 4. Running the following code will initiate background processing, and save the log in "NF.log.":
