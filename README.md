@@ -7,6 +7,7 @@ docker pull xynicoo/rnaseq:n3-fastpMqc
 
 ## 2. All software parameters are preconfigured in the "bulk RNA-seq workflow of NEXTFLOW" file. If you need to modify the runtime parameters of the software, you can make changes to this file.
  software detail:
+ 
  FastQC (version 0.11.9) was used for data quality control (QC).
 
  Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. Clean reads were mapped to the human reference genome 
