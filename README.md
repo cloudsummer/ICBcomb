@@ -26,7 +26,7 @@ Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
 
 To run a Nextflow configuration file and specify parameters such as the path to the fastq files, reference genome path, user UID, and other relevant settings.
 
-### 4. Running the following code will initiate background processing, and save the log in "NF.log.":
+### 4. Running the following code will initiate background processing, and save the log in "NF.log":
 
 ```nohup nextflow ./bulk_RNAseq_work_flow_of_NEXTFLOW -with-docker xynicoo/rnaseq:n3-fastpMqc -c nextflow.config >> NF.log 2>&1 &```
 
