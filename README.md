@@ -13,8 +13,9 @@ Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
  
  FastQC (version 0.11.9) was used for data quality control (QC).
 
- Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. Clean reads were mapped to the human reference genome 
- GRCh38 or the mouse reference genome GRCm39 by HISAT2 (version 2.2.1).
+ Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. 
+ 
+ Clean reads were mapped to the human reference genome GRCh38 or the mouse reference genome GRCm39 by HISAT2 (version 2.2.1).
  
  SAMtools (version 1.16) was used to convert the “.sam” file into a “.bam” file.
  
