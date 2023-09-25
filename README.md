@@ -7,7 +7,11 @@ We utilized NEXTFLOW for the processing pipeline of bulk RNA-seq raw data of the
 ### 1. To download, simply run the following code on a server with Docker and NextFlow installed:
 (Docker version we used is 20.10.21, build 20.10.21-0ubuntu1~22.04.3; the NextFlow version we used is 20.07.1 build 5412) 
 
-```docker pull xynicoo/rnaseq:n3-fastpMqc```
+```
+#the docker image was made by me (the author of ICBcomb)
+docker pull xynicoo/rnaseq:n3-fastpMqc
+
+```
 
 ### 2. Modify the file "bulk_RNAseq_workflow_of_NEXTFLOW".
 
