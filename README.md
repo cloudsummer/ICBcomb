@@ -10,7 +10,6 @@ We utilized NEXTFLOW for the processing pipeline of bulk RNA-seq raw data of the
 ```
 #the docker image was made by me (the author of ICBcomb)
 docker pull xynicoo/rnaseq:n3-fastpMqc
-
 ```
 
 ### 2. Modify the file "bulk_RNAseq_workflow_of_NEXTFLOW".
