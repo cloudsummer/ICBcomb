@@ -20,7 +20,7 @@ docker pull xynicoo/rnaseq:n3-fastpMqc
 All software parameters are preconfigured in the "parameters_of_RNAseq_workflow" file. If you need to modify the runtime parameters of the software, you can make changes to this file.
 
 Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
-- [Background](#background)
+- [FastQC]
 - FastQC (version 0.11.9) was used for data quality control (QC).
 
 - Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. 
