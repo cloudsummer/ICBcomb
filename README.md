@@ -21,17 +21,17 @@ All software parameters are preconfigured in the "parameters_of_RNAseq_workflow"
 
 Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
  
- FastQC (version 0.11.9) was used for data quality control (QC).
+- FastQC (version 0.11.9) was used for data quality control (QC).
 
- Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. 
+- Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. 
  
- Clean reads were mapped to the human reference genome GRCh38 or the mouse reference genome GRCm39 by HISAT2 (version 2.2.1).
+- Clean reads were mapped to the human reference genome GRCh38 or the mouse reference genome GRCm39 by HISAT2 (version 2.2.1).
  
- SAMtools (version 1.16) was used to convert the “.sam” file into a “.bam” file.
+- SAMtools (version 1.16) was used to convert the “.sam” file into a “.bam” file.
  
- StringTie (version 2.2.1) was used to estimate the abundance of transcripts for each sample.
+- StringTie (version 2.2.1) was used to estimate the abundance of transcripts for each sample.
  
- FeatureCounts (version 2.0.3) was used to calculate gene expression and get the raw counts (reads matrix).
+- FeatureCounts (version 2.0.3) was used to calculate gene expression and get the raw counts (reads matrix).
 
 ### 3. Modify the file "nextflow.config".
 
