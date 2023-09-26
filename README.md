@@ -1,5 +1,5 @@
 ## Bulk-RNAseq workflow of ICBcomb 
-- [1. Download the docker image.]
+- [1. Download the docker image.](#1. Download the docker image.)
 - [2. Modify the file "parameters_of_RNAseq_workflow".]
 - [3. Modify the file "nextflow.config".]
 - [4.Running the workflow.]
