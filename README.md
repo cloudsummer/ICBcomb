@@ -1,10 +1,9 @@
 ## Bulk-RNAseq workflow of ICBcomb 
 
 - [1. Download the docker image](#Download-the-docker-image)
-
 - [2. Modify the file 1: "parameters_of_RNAseq_workflow"](#Modify-the-file-1)
-- [3. Modify the file "nextflow.config".]
-- [4.Running the workflow.]
+- [3. Modify the file 2: "nextflow.config"](#Modify-the-file-2)
+- [4.Running the workflow](#Running-the-workflow)
     
 ![github_RNAseq_workflow](https://github.com/cloudsummer/ICBcomb/assets/24847317/1a84bded-588b-48e1-878a-8c3640fc8541)
 
@@ -42,7 +41,9 @@ Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
  
 - FeatureCounts (version 2.0.3) was used to calculate gene expression and get the raw counts (reads matrix).
 
-### 3. Modify the file "nextflow.config"
+### 3. Modify the file 2
+
+Modify the file "nextflow.config"
 
 To run a Nextflow configuration file and specify parameters such as the path to the fastq files, reference genome path, user UID, and other relevant settings.
 
