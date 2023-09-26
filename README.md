@@ -1,6 +1,6 @@
 ## Bulk-RNAseq workflow of ICBcomb 
 
-- [Background](#background)
+- [1. Download the docker image.](#1. Download the docker image.)
 
 - [1. Download the docker image.](#1. Download the docker image.)
 - [2. Modify the file "parameters_of_RNAseq_workflow".]
