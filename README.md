@@ -1,6 +1,6 @@
 ## Bulk-RNAseq workflow of ICBcomb 
 
-- [1.Download the docker image](#1.Download-the-docker-image)
+- [1. Download the docker image](#1.-Download-the-docker-image)
 
 - [1. Download the docker image.](#1. Download the docker image.)
 - [2. Modify the file "parameters_of_RNAseq_workflow".]
@@ -9,7 +9,7 @@
     
 ![github_RNAseq_workflow](https://github.com/cloudsummer/ICBcomb/assets/24847317/1a84bded-588b-48e1-878a-8c3640fc8541)
 
-
+- [Background](#background)
 
 We utilized NEXTFLOW for the processing pipeline of bulk RNA-seq raw data of the datasets in ICBcomb, and the software used has been encapsulated within the Docker image: xynicoo/rnaseq:n3-fastpMqc.
 
