@@ -2,7 +2,7 @@
 
 - [1. Download the docker image](#Download-the-docker-image)
 
-- [2. Modify the file "parameters_of_RNAseq_workflow"](#Modify-the-file-"parameters-of-RNAseq-workflow")
+- [2. Modify the file "parameters_of_RNAseq_workflow"](#Modify-the-file-"parameters_of_RNAseq_workflow")
 - [3. Modify the file "nextflow.config".]
 - [4.Running the workflow.]
     
