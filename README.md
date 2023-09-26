@@ -49,6 +49,6 @@ To run a Nextflow configuration file and specify parameters such as the path to 
 
 Running the following code will initiate background processing, and save the log in "NF.log":
 
-```nohup nextflow ./parameters_of_RNAseq_workflow -with-docker xynicoo/rnaseq:n3-fastpMqc -c nextflow.config >> NF.log 2>&1 &```
+```$ nohup nextflow ./parameters_of_RNAseq_workflow -with-docker xynicoo/rnaseq:n3-fastpMqc -c nextflow.config >> NF.log 2>&1 &```
 
 
