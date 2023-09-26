@@ -1,4 +1,9 @@
 ## Bulk-RNAseq workflow of ICBcomb 
+- [1. Download the docker image.]
+- [2. Modify the file "parameters_of_RNAseq_workflow".]
+- [3. Modify the file "nextflow.config".]
+- [4.Running the workflow.]
+    
 ![github_RNAseq_workflow](https://github.com/cloudsummer/ICBcomb/assets/24847317/1a84bded-588b-48e1-878a-8c3640fc8541)
 
 
@@ -20,7 +25,7 @@ docker pull xynicoo/rnaseq:n3-fastpMqc
 All software parameters are preconfigured in the "parameters_of_RNAseq_workflow" file. If you need to modify the runtime parameters of the software, you can make changes to this file.
 
 Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
-- [#FastQC (version 0.11.9) was used for data quality control (QC).]
+
 - FastQC (version 0.11.9) was used for data quality control (QC).
 
 - Fastp (version 0.23.1) was employed for adapter sequence removal and trimming to obtain high-quality clean reads. 
@@ -37,7 +42,9 @@ Software detail in the docker image "xynicoo/rnaseq:n3-fastpMqc":
 
 To run a Nextflow configuration file and specify parameters such as the path to the fastq files, reference genome path, user UID, and other relevant settings.
 
-### 4. Running the following code will initiate background processing, and save the log in "NF.log":
+### 4. Running the workflow.
+
+Running the following code will initiate background processing, and save the log in "NF.log":
 
 ```nohup nextflow ./parameters_of_RNAseq_workflow -with-docker xynicoo/rnaseq:n3-fastpMqc -c nextflow.config >> NF.log 2>&1 &```
 
