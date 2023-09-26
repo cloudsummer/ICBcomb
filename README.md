@@ -6,7 +6,8 @@
 We utilized NEXTFLOW for the processing pipeline of bulk RNA-seq raw data of the datasets in ICBcomb, and the software used has been encapsulated within the Docker image: xynicoo/rnaseq:n3-fastpMqc.
 
 ### 1. Download the docker image. 
-simply run the following code on a server with Docker and NextFlow installed:
+Just simply run the following code on a server with Docker and NextFlow installed:
+
 (Docker version we used is 20.10.21, build 20.10.21-0ubuntu1~22.04.3; the NextFlow version we used is 20.07.1 build 5412) 
 
 ```
