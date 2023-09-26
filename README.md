@@ -2,7 +2,7 @@
 
 - [1. Download the docker image](#Download-the-docker-image)
 
-- [2. Modify the file "parameters_of_RNAseq_workflow".]
+- [2. Modify the file "parameters_of_RNAseq_workflow"](#Modify-the-file-"parameters-of-RNAseq-workflow")
 - [3. Modify the file "nextflow.config".]
 - [4.Running the workflow.]
     
@@ -22,7 +22,7 @@ Just simply run the following code on a server with Docker and NextFlow installe
 docker pull xynicoo/rnaseq:n3-fastpMqc
 ```
 
-### 2. Modify the file "parameters_of_RNAseq_workflow"
+### Modify the file "parameters_of_RNAseq_workflow"
 
 All software parameters are preconfigured in the "parameters_of_RNAseq_workflow" file. If you need to modify the runtime parameters of the software, you can make changes to this file.
 
