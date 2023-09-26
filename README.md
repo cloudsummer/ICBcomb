@@ -2,7 +2,7 @@
 
 - [1. Download the docker image](#Download-the-docker-image)
 
-- [2. Modify_the_file](#Modify_the_file)
+- [2. Modify the file](#Modify-the-file)
 - [3. Modify the file "nextflow.config".]
 - [4.Running the workflow.]
     
